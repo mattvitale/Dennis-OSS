@@ -2,44 +2,40 @@
 
 **Open-source legal AI for Australia.**
 
-A practical Australian fork of[](https://github.com/willchen96/mike), built for local law, terminology, and data sovereignty.
+A practical fork of[](https://github.com/willchen96/mike) focused on Australian law, terminology, and data sovereignty.
 
 > "It's the vibe of the thing." — Dennis Denuto
 
 ---
 
-### What is Dennis OSS?
-
-Dennis OSS is an open-source legal intelligence platform designed specifically for Australian legal practice. It lets law firms and in-house teams run a powerful legal AI tool entirely under their control — with no data leaving Australia.
-
-### Key Goals
-
-- Strong understanding of Australian legislation, case law, and drafting style
-- Full data residency and self-hosting capability
-- Significantly lower cost than commercial legal AI tools
-- Open and transparent — no black box vendor lock-in
-
 ### Current Status
 
-Early days. We have successfully forked Mike OSS and are now adapting it for Australian use.
+**This is a work in progress.** 
 
-**Next priorities:**
-- Australian-tuned system prompts
-- Local legal knowledge base (AustLII, High Court, legislation, etc.)
-- Simple self-hosting guide for Australian firms
+We have forked Mike OSS and are now adapting it for Australian legal practice. The core platform works, but the Australian-specific improvements (prompts, knowledge base, and self-hosting guidance) are still being built.
 
-### Tech Stack
+### Goals
 
-- Same as Mike OSS (Next.js, Supabase, BYO LLM keys)
-- AGPL-3.0 licensed
-- Designed to run in Australia
+- Build a legal AI tool that actually understands Australian law
+- Keep data in Australia (self-hosted option)
+- Use proper Australian legal terminology and drafting style
+- Make it genuinely useful for Australian lawyers and in-house teams
+- Keep it free and open source
 
-### Links
+### What’s Next
 
-- Website:[](https://denniss.org)
-- Original project:[](https://github.com/willchen96/mike)
+- Strong Australian system prompt (in progress)
+- Local legal knowledge base (AustLII, High Court judgments, key legislation)
+- Simple deployment guide for Australian firms
+- Testing with real Australian legal documents
+
+### Tech
+
+Same stack as Mike OSS — Next.js, Supabase, bring your own LLM keys (Claude, Gemini, etc.).
 
 ---
 
-Want to contribute or follow along?  
-Star the repo and keep an eye on this space. The vibe is strong.
+**Interested in helping?**  
+Feel free to open issues or reach out via[](https://denniss.org).
+
+The vibe is strong.
